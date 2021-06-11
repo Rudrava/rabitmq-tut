@@ -1,0 +1,13 @@
+{
+  "name": "rabitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pub": "node publisher.js",
+    "sub": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
